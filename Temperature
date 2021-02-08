@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float celsius,farhenheit;
+printf("Enter temperature in farhenheit");
+scanf("%f",&farhenheit);
+celsius=(farhenheit-32)*0.55;
+printf("Temperature in celsius=%f",celsius);
+getch();
+return 0;
+}
